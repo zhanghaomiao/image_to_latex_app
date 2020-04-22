@@ -3,8 +3,8 @@ import base64, os, requests, json
 env = os.environ
 
 default_headers = {
-    'app_id': env.get('APP_ID', 'zhanghm1994_gmail_com'),
-    'app_key': env.get('APP_KEY', '964d5f57a60eef604a1f'),
+    'app_id': env.get('APP_ID', 'xxxxxxxxxxxxx'), # repalce you own app_id and app_key
+    'app_key': env.get('APP_KEY', 'xxxxxxxxxxxx'),
     'Content-type': 'application/json'
 }
 service = 'https://api.mathpix.com/v3/latex'
